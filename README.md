@@ -1,6 +1,6 @@
-# rustguess — a number-guessing Linux kernel module in Rust
+# Rustguess — a number-guessing Linux kernel module in Rust
 
-rustguess is a Linux kernel module that runs a number-guessing game at /dev/rustguess — a small example of a stateful, user-driven protocol written entirely in safe Rust.
+Rustguess is a Linux kernel module that runs a number-guessing game at /dev/rustguess — a small example of a stateful, user-driven protocol written entirely in safe Rust.
 
 ## Features
 
