@@ -36,7 +36,7 @@ The module uses a global mutex-protected `GameState` strucutre to store:
 - guess count
 - win state
 
-`write_iter()` parses user guess and updates game state, while `read_iter()`
+`write_iter()` parses user guess and updates game state, while `read_iter()` returns the latest response message to user space.
 
 Malformed input is handled safely without panicking the kernel.
 
